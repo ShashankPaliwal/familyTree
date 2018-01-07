@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Family Tree</title>
-    <script src="..\angular\resources\templates\angular\angular-1.6.7\angular.min.js"/>
+    <script src="../angular/angular-1.6.7/angular.js"></script>
+    <script src="../angular/angular-1.6.7/angular-route.min.js"></script>
+    <script type="text/javascript" src="../modules/familyTree.js"></script>
+    <script type="text/javascript" src="../controllers/mainController.js"></script>
 </head>
-<body ng-app="familyTree">
-
+<body>
+<div  ng-app="familyTree">
+    <div ng-controller="main as m">
+        <h1>{{m.headline}}</h1>
+    </div>
+</div>
 </body>
 </html>
