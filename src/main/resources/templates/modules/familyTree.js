@@ -1,1 +1,1 @@
-var familyTreeVar = angular.module("familyTree", []);
+var familyTreeVar = angular.module("familyTree", []); 
